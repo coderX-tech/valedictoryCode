@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  background-color: #334155;
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stanza {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.chorus {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+}

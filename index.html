@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order of Programme</title>
+
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="pt-4 flex justify-center">
+      <img src="img/logo.jpg" class="h-24" alt="" />
+    </div>
+    <h1 class="text-center text-white text-xl md:text-3xl font-bold pt-4">
+      Prize-giving Day
+    </h1>
+    <h3 class="text-center text-white text-md md:text-xl font-bold py-4">
+      Order of Programme
+    </h3>
+
+    <!-- this holds the programs order sha. This is the part you should focus on -->
+    <div class="flex pt-8 justify-center">
+      <div class="flex flex-row">
+        <div
+          id="item-1"
+          class="order-1 py-4 px-1 text-center border-2 border-white rounded-lg w-40 h-24 text-white hover:bg-white hover:text-black"
+        >
+          <p class="font-semibold text-sm">Opening prayers</p>
+          <span class="text-xs font-semibold">9:00am - 9:20am</span>
+        </div>
+        <div class="order-2 rounded-lg w-40 h-24 p-2">
+          <ul
+            id="detail-1"
+            class="text-xs hidden text-white animate-pulse delay-300 transition-all"
+          >
+            <li>Starting the program with giving thanks to God</li>
+            <li class="font-semibold">By Mr Kolawole</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex pt-8 justify-center">
+      <a href="hymn.html" class="link">
+        <div class="flex flex-row">
+          <div
+            id="item-2"
+            class="order-2 py-4 px-1 text-center border-2 border-white rounded-lg w-40 h-24 text-white hover:bg-white hover:text-black"
+          >
+            <p class="font-semibold text-sm">Hymns</p>
+            <span class="text-xs font-semibold">9:00am - 9:20am</span>
+          </div>
+          <div class="order-1 rounded-lg w-32 h-24 p-2">
+            <ul
+              id="detail-2"
+              class="text-xs hidden text-white animate-pulse delay-300 transition-all"
+            >
+              <li>Starting the program with giving thanks to God</li>
+              <li class="font-semibold">By Mr Kolawole</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
